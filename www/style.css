@@ -1,0 +1,219 @@
+body{
+    width: 360px;
+    height: 550px;
+    border-radius: 30px;
+    border: 1px solid black;
+    background-color: rgb(32, 32, 32);
+    overflow: hidden;
+    position: absolute;
+    margin-top: -5px;
+}
+
+/* Container class */
+#container{
+    width: 360px;
+    height: 620px;
+    border-radius: 30px;
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: #aed3df;
+    margin-left: 480px;
+}
+
+#container3{
+    /*width: 360px;
+    /*height: 620px;*/
+    border-radius: 30px;
+    border: 1px solid black;
+    background-color: rgb(22, 22, 22);
+    margin-left: 480px;
+}
+
+.color{
+    background: rgba(0, 0, 0, 0.842);
+    margin: 12% auto;
+    padding: 40px 0;
+    color: #fff;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+    height: 450px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+}
+
+/*.row, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+    border: 1px solid black;
+}*/
+
+
+/* User icons class */
+.user{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: -10px;
+}
+
+.user2{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+
+/* Text class */
+h2{
+    text-align: center;
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.text{
+    height: 30px;
+    width: 30px;
+    border: 1px solid #c9c501;
+    color: white;
+    background-color: #f4ff52;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 15px;
+    margin-left: -5px;
+    color: black;
+}
+
+
+/* Buttons class */
+.login{
+    height: 40px;
+    width: 120px;
+    border: 1px solid #dce73c;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #dce73c;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    position: absolute;
+}
+
+.disconnection{
+    height: 40px;
+    width: 150px;
+    border: 1px solid #c9c501;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #f4ff52;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+    margin-top: 250px;
+}
+
+
+.return{
+    height: 30px;
+    width: 30px;
+    border: 1px solid #c9c501;
+    color: white;
+    background-color: #f4ff52;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 15px;
+    margin-left: 10px;
+    color: black;
+}
+
+.send{
+    height: 37px;
+    width: 60px;
+    margin-left: -20px;
+
+    border-radius: 2px;
+    border: 1px solid rgb(168,168,255);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgb(168,168,255);
+}
+
+
+/* Links class */
+.link{
+    margin-left: 73px;
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: #aed3df;
+}
+
+
+/* Messages class */
+.msg_user{
+    border: 1px solid black;
+    background-color: #1d1d1d;
+    border-radius: 10px;
+    margin-left: 30px;
+    color: white;
+}
+
+.msg_user2{
+    border: 1px solid black;
+    background-color: #1d1d1d;
+    margin-top: 100px;
+    margin-left: 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+.msg_me{
+    border: 1px solid black;
+    background-color: rgb(168,168,255);
+    width: 300px;
+    margin-left: 150px;
+    border-radius: 10px; 
+    color: white;
+}
+
+.msg_me2{
+    border: 1px solid black;
+    background-color: rgb(168,168,255);
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 120px;
+    border-radius: 10px; 
+    color: white;
+}
+
+
+/* Icons class */
+.icon{
+    width: 15px;
+    height: 15px;
+}
+
+.tchat{
+    width: 45px;
+    height: 45px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+
+/* Others */
+.messages-div {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.salon_general{
+    background-color: #1d1d1d;
+}
